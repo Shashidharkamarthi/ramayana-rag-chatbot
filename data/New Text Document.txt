@@ -1,0 +1,14 @@
+# Data folder
+
+Put your Ramayana source documents here before building the vector index.
+
+Supported formats: `.pdf`, `.docx`, `.txt`
+
+Suggested sources (public-domain / educational):
+- Valmiki Ramayana (translated editions)
+- Ramcharitmanas (translated editions)
+- Educational summaries of the Ramayana
+
+The ingestion pipeline (`utils/document_loader.py`) reads every
+supported file in this folder, so you can drop in multiple documents
+and they'll all be indexed together.
